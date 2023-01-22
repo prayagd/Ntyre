@@ -1,4 +1,36 @@
-nav{
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: gambarino;
+    background-color: whitesmoke;;
+}
+
+#title{
+    font-size: 3rem;
+    text-align: center; 
+}
+
+#home{
+    padding: 17em 0;
+    background-color: aqua;
+}
+
+
+#navbar{
    background-color: yellow; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#navlinks a{
+    padding-left: 2em;
+    margin: auto;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
 }
 
